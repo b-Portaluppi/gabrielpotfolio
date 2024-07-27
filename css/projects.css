@@ -25,7 +25,7 @@
 
 .pro {
     background-color: rgb(65, 64, 64);
-    width:  200px;
+    width:  400px;
 }
 
 .links-projetos p {
@@ -60,5 +60,9 @@
 
     .links-projetos {
         margin-bottom: 20px;
+    }
+
+    .pro {
+        width: 200px;
     }
 }
