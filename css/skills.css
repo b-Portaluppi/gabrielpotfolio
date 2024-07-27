@@ -1,0 +1,42 @@
+@import url("/css/variaveis.css");
+
+.container__skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container__skills h1 {
+    font-size: 35px;
+    color: var(--white);
+    font-family: Arial, Helvetica, sans-serif;
+    transition: .3s;
+    margin-bottom: 35px;
+}
+
+.container__skills h1:hover {
+    border-bottom: 4px solid var(--red-titulo);
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.skills img {
+    max-width: 10%;
+}
+
+@media (max-width: 700px) {
+    .skills {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skills img {
+        max-width: 20%;
+    }
+}

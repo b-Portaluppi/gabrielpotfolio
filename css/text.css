@@ -1,0 +1,89 @@
+@import url("./variaveis.css");
+
+@keyframes animatiIda {
+    0% {
+        transform: translateX(0%);
+    } 50% {
+        transform: translateX(20%);
+    } 100%{
+        transform: translateX(0%);
+    }
+}
+
+
+.container__text {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    color: var(--white);
+    width: 42%;
+    height: 100vh;
+    background-color: #000000a4;
+}
+
+.nomes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    margin-left: 20%;
+}
+
+.nomes h1 {
+    font-family: var(--aref);
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 100%;
+    margin-bottom: 18px;
+}
+
+.nomes h1 strong {
+    font-weight: 400;
+}
+
+.nomes h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    animation: animatiIda 6s infinite;
+}
+
+.nomes h2 strong {
+    color: var(--red-text);
+}
+
+.logos {
+    margin-left: 14px;
+    margin-bottom: 40px;
+    display: flex;
+    gap: 14px;
+    color: white;
+}
+
+.logos a:hover {
+    transform: translate(-4px, -4px);
+    transition: .5s;
+}
+
+@media (max-width: 700px) {
+    .container__text {
+        justify-content: center;
+        align-items: center;
+        top: 30%;
+        width: 100%;
+        height: 50vh;
+    }
+
+    .nomes {
+        height: 40vh;
+        margin-left: 10%;
+    }
+
+    .nomes h1 {
+        font-size: 40px;
+    }
+
+    .nomes h2 {
+        font-size: 18px;
+    }
+}
