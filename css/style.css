@@ -38,5 +38,14 @@ html {
   } 
 }
 
+@media (max-width: 1024px) {
+  .background {
+    background-image: url("../assets/background-mobile.png");
+    background-position: center center;
+  }
+}
+
+
+
 
 
