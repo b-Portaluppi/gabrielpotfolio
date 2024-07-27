@@ -84,10 +84,10 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 500px;
+        width: 100px;
     }
 
     .aboutMe p {
-        font-size: 27px;
+        font-size: 15px;
     }
 }
