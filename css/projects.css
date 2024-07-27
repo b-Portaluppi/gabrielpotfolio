@@ -56,6 +56,8 @@
 @media (max-width: 700px) {
     .container__projetos .projetos {
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .links-projetos {
@@ -64,5 +66,9 @@
 
     .pro {
         width: 200px;
+    }
+
+    .container__projetos h1 {
+        margin-top: 100%;
     }
 }
