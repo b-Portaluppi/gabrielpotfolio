@@ -21,6 +21,9 @@
 .container__projetos .projetos {
     display: flex;
     margin-left: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 .pro {
